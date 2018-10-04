@@ -18,7 +18,7 @@ this.sixth = face6;
 // you just created
 const diceRollGenerator = new Generator (1, 2, 3,4, 5, 6 );
 
-const eightBallGenerator = new Generator ("It is certain"; "Reply hazy try again"; "Cannot predict now"; "Don't count on it"; "My reply is no"; "As I see it, yes");
+const eightBallGenerator = new Generator ("It is certain", "Reply hazy try again", "Cannot predict now", "Don't count on it", "My reply is no", "As I see it, yes");
 
 var outcome = function (world){
 var keys = Object.keys(world)
